@@ -11,7 +11,7 @@ interface User {
   password: string;
 }
 
-const page = () => {
+const Signup = () => {
   const router = useRouter();
 
   const [user, setUser] = useState<User>({
@@ -98,4 +98,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Signup;

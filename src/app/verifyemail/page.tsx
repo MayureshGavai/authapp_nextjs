@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
-const page = () => {
+const VerifyEmail = () => {
     const [token,setToken] = useState('')
     const [verified,setVerified] = useState(false)
     const [error,setError] = useState(false)
@@ -60,4 +60,4 @@ const page = () => {
   )
 }
 
-export default page
+export default VerifyEmail

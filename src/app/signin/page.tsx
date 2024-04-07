@@ -10,7 +10,7 @@ interface User {
     password : string
 }
 
-const page = () => {
+const Signin = () => {
     const [user, setUser] = useState<User>({
         email: "",
         password: "",
@@ -83,4 +83,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Signin
