@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
     <div className='w-1/3 mx-auto mt-5 p-3 border border-white rounded-lg'>
       <h1 className='text-2xl text-center mt-3'>Auth App</h1>
@@ -8,4 +8,4 @@ const page = () => {
   )
 }
 
-export default page mt-3
+export default Home
